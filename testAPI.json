@@ -1,0 +1,39 @@
+
+{
+    "plugins": [
+		"-sharing",
+		"-search",
+		"-fontsettings",
+        	"js-sequence-diagram@0.0.8",
+		"anchor-navigation@0.0.1",
+		"search-pro@1.1.0",
+		"tbfed-pagefooter@0.0.1",
+		"baidu@0.1.0"
+    ],
+    "pluginsConfig": {
+		"search-pro":{
+			"cutWordLib":"nodejieba"
+		},
+		"tbfed-pagefooter": {
+		  "copyright":"&copy Esunny API Team",
+		  "modify_label": "修订时间：",
+		  "modify_format": "YYYY-MM-DD HH:mm:ss"
+		},
+		"baidu":{
+			"token": "996d7d789944261e71be275795686089"
+		}
+	},
+	"links":{
+		"gitbook":false
+	},
+	"login_info": [ {
+		"loginpayload": {
+			"username": "esunny_test",
+			"password": "3sunny_t3st@P@ssw0rd"
+		},
+		"name": "esuunyapi_test",
+		"domain": "index.esunny.com.cn",
+		"start_url": "http://index.esunny.com.cn/",
+		"loginurl": "http://index.esunny.com.cn/?m=member&c=index&a=login",
+		"UkeyPIN": ["http://index.esunny.com.cn/static/PassGuardALLE.exe"],
+	}
